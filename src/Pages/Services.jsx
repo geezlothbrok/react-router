@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Services () {
     return (
@@ -11,6 +12,8 @@ function Services () {
                 reprehenderit, dolorem tempore voluptatum qui unde, 
                 repellat beatae rem aperiam minus quas nobis error corrupti?
             </p>
+                <Link to="/Services/6">Odds</Link>
+                <Link to="/Services/83">swimming</Link>
         </div>
     )
 }
